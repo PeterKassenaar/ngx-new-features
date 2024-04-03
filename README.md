@@ -3,6 +3,8 @@
 Workshops, exercises and demo's on the training `Angular New Features` by [Peter Kassenaar](mailto:info@kassenaar.com).
 All examples are on Angular 17.0.0 or higher, unless otherwise noted.
 
+Want to book a training by Peter for your Company or Organisation? [Contact](https://www.kassenaar.com/contact) me.
+
 ## Usage
 
 - Clone this repo
