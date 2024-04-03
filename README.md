@@ -1,4 +1,27 @@
-# Angular17
+# ngx-new-features
+
+Workshops, exercises and demo's on the training `Angular New Features` by [Peter Kassenaar](mailto:info@kassenaar.com).
+All examples are on Angular 17.0.0 or higher, unless otherwise noted.
+
+## Usage
+
+- Clone this repo
+- `npm install`
+- `npm start`
+- There are a lot of comments in the source code. Un-comment the various lines to see the technique demonstrated in action.
+
+## Contents
+
+The following topics are covered in this course/repo:
+- New Control Flow syntax (`@if`, `@switch` and more)
+- Deferred rendering
+- Standalone components and ngModule-less applications
+- New Dependency Injection (DI) system with `inject()`
+- Creating and using `signal()`, `computed()` and `effect()`
+- Server Side Rendering and Hydration.
+
+***
+## Creation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
