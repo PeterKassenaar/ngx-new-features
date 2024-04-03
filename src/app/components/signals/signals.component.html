@@ -1,0 +1,20 @@
+<h1>Component using <code>signals</code></h1>
+<code>The value 0 is a signal here. See source code for details.</code>
+<hr>
+<!--Value of signals -->
+<h2>Count: {{ count() }}</h2>
+<h2>Double: {{ double() }}</h2>
+<h2>doubleDouble: {{ doubleDouble() }}</h2>
+<!--Methods -->
+<button (click)="updateCount(5)">Add 5 to Count</button>
+<button (click)="resetCount()">Reset to 0</button>
+<button (click)="addEffect()">Add an effect</button>
+
+
+<hr>
+<code>Using (old school) Observables:</code>
+<h2>Count$: {{ count$ | async }}</h2>
+<h2>double$ {{ double$ | async }}</h2>
+<button (click)="updateCountStream(5)">
+  Update Count stream
+</button>
