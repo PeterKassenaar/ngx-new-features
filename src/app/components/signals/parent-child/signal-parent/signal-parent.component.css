@@ -1,0 +1,12 @@
+/* Not really necessary, but makes it slightly prettier*/
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}

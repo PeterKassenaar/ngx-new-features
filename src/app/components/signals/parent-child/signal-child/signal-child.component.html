@@ -1,0 +1,11 @@
+<h2>This is view/child component. It receives it value from the parent</h2>
+<p>It uses an input signal for that.</p>
+<!--
+     `value()` reads the input signal (signal values are read like functions).
+     `parity()` reads a computed signal derived from `value()`.
+   -->
+<p>
+  <strong>{{ value() }}</strong>
+  =
+  <strong>{{ parity() }}</strong>
+</p>

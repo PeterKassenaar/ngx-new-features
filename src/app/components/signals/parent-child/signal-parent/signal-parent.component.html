@@ -1,0 +1,32 @@
+<h2>Even / Odd (input() signal demo)</h2>
+
+<!--
+  Parent owns the writable signal `count`.
+  We show it directly by reading `count()`.
+-->
+<p>Parent count: <strong>{{ count() }}</strong></p>
+
+<!--
+  Some buttons to mutate the parent's signal.
+  `update()` derives the next value from the previous one (see TS).
+-->
+<div class="buttons">
+  <button (click)="decrement()">-</button>
+  <button (click)="increment()">+</button>
+  <button (click)="reset()">Reset</button>
+</div>
+<!--
+  Bind parent signal value into child's InputSignal:
+  - `[value]="count()"` passes a NUMBER (the current value) to the child.
+  - The child receives it as an InputSignal and reads it via `value()`.
+-->
+<app-signal-child [value]="count()"></app-signal-child>
+
+
+
+<!--
+  Extra:
+  `isZero()` is a computed in the parent.
+  It updates automatically when `count()` changes.
+-->
+<!--<small>Decrement disabled when count is 0: {{ isZero() }}</small>-->

@@ -1,0 +1,5 @@
+/*Not realy necessary, but slightly prettier*/
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
