@@ -20,7 +20,7 @@ interface City {
 })
 export class AppComponent {
   title = 'angular17';
-  showTitle = false;
+  showTitle = true;
   cities : City[] = [
     {id: 1, name: 'Amsterdam', country: 'NL'},
     {id: 2, name: 'Berlin', country: 'GER'},

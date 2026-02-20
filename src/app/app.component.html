@@ -1,18 +1,23 @@
-<!--@if (showTitle) {-->
-<!--  <div>-->
-<!--    {{ title }}-->
-<!--  </div>-->
-<!--} @else {-->
-<!--  <div>Please set a title...</div>-->
-<!--}-->
-<!--<ul>-->
-<!--  @for (city of cities; track city.id) {-->
-<!--    <li>{{ city.id }} - {{ city.name }}</li>-->
-<!--  }-->
-<!--</ul>-->
+<h1>Small Angular 17+ standalone demo application</h1>
+<p>See the separate components to learn about Angular 17+ features.</p>
+<p><em>Workshop</em>: create an 'oldskool' Angular Module and use this component inside the module. Then turn things around and
+  use the module in this component. You can mix and match!</p>
+<hr>
+@if (showTitle) {
+  <div>
+    Title: {{ title }}
+  </div>
+} @else {
+  <div>Please set a title...</div>
+}
+<ul>
+  @for (city of cities; track city.id) {
+    <li>{{ city.id }} - {{ city.name }}</li>
+  }
+</ul>
 <!--Defer example-->
 <!--<app-defer></app-defer>-->
 <!--Inject example-->
 <!--<app-inject></app-inject>-->
 <!--Signals example-->
-<app-signals></app-signals>
+<!--<app-signals></app-signals>-->
