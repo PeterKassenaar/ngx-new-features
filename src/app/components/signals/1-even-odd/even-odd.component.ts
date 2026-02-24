@@ -33,6 +33,7 @@ export class EvenOddComponent {
   reset() {
     this.count.set(0);
   }
+  // Q: Why do we use .set() instead of .update()? in the example above?
 
   // Workshop: use an effect() to log the current parity to the console.
   //....

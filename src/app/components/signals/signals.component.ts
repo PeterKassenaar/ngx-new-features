@@ -1,7 +1,7 @@
 import {Component, computed, effect, inject, Injector, Signal, signal, WritableSignal} from '@angular/core';
 import {BehaviorSubject, map, Observable} from "rxjs";
 import {AsyncPipe} from "@angular/common";
-import {EvenOddComponent} from "./even-odd/even-odd.component";
+import {EvenOddComponent} from "./1-even-odd/even-odd.component";
 import {SignalParentComponent} from "./parent-child/signal-parent/signal-parent.component";
 
 @Component({
